@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: wndth-deployment
+  labels:
+    app: wndth
+spec: 
+  replicas: 5
+  selector: 
+    matchLabels:
+      app: wndth
+  template: 
+    metadata:
+      labels:
+        app: wndth
+    spec:
+      containers:
+      - name: wndth
+        image: "wndth:2"
+        ports: 
+        - containerPort: 80

@@ -1,0 +1,3 @@
+/home/zargerion/vs-projects/wndth/CMakeFiles/app.dir
+/home/zargerion/vs-projects/wndth/CMakeFiles/edit_cache.dir
+/home/zargerion/vs-projects/wndth/CMakeFiles/rebuild_cache.dir

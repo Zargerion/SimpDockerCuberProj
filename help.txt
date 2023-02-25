@@ -1,0 +1,17 @@
+// docker build -t wndth:1 .
+// docker run --rm --name wndth -p 80:8080 wndth:1
+// docker run -d --name wndthv2 -p 80:80 wndth:2
+// (kubectl create deploy testnginx --image=ngenx --port=80) can skip
+// (kubectl port-forward pods/testnginx-{00000000000-000000} 8080:80) can skip
+// kubectl get deploy
+// kubectl get pods // to get {00000000000-000000}
+// kubectl port-forward wndth-deployment-5847c4bcb7-885bq 80:8080
+
+// kubectl apply -f deployment.yaml
+// kubectl apply -f service.yaml
+// docker build -t wndth:2 .
+// docker push wndth:2 .
+cmake .. | cmake . (make file generation)
+cmake --build .
+sudo ./<app>
+//
